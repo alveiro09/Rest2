@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/azulClarito"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblNombre"
+        android:id="@+id/nombre"
+        android:layout_marginRight="@dimen/mrgEstandar"
+        android:layout_marginLeft="@dimen/mrgEstandar"
+        android:layout_marginTop="@dimen/mrgEstandar"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblNombre"
+        android:id="@+id/lblnombre"
+        android:layout_below="@+id/nombre"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/mrgEstandar"
+        android:layout_marginLeft="@dimen/mrgEstandar"
+        android:layout_marginBottom="@dimen/mrgEstandar"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblApellido"
+        android:id="@+id/apellido"
+        android:layout_below="@+id/lblnombre"
+        android:layout_marginRight="@dimen/mrgEstandar"
+        android:layout_marginLeft="@dimen/mrgEstandar"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblApellido"
+        android:textStyle="bold"
+        android:id="@+id/lblapellido"
+        android:layout_below="@+id/apellido"
+        android:layout_marginRight="@dimen/mrgEstandar"
+        android:layout_marginLeft="@dimen/mrgEstandar"
+        android:layout_marginBottom="@dimen/mrgEstandar"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblTelefono"
+        android:id="@+id/telefono"
+        android:layout_below="@+id/lblapellido"
+        android:layout_marginRight="@dimen/mrgEstandar"
+        android:layout_marginLeft="@dimen/mrgEstandar"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblTelefono"
+        android:textStyle="bold"
+        android:id="@+id/lblTelefono"
+        android:layout_below="@+id/telefono"
+        android:layout_marginRight="@dimen/mrgEstandar"
+        android:layout_marginLeft="@dimen/mrgEstandar"
+        android:layout_marginBottom="@dimen/mrgEstandar"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblCedula"
+        android:id="@+id/cedula"
+        android:layout_below="@+id/lblTelefono"
+        android:layout_marginRight="@dimen/mrgEstandar"
+        android:layout_marginLeft="@dimen/mrgEstandar"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblCedula"
+        android:textStyle="bold"
+        android:id="@+id/lblCedula"
+        android:layout_below="@+id/cedula"
+        android:layout_marginRight="@dimen/mrgEstandar"
+        android:layout_marginLeft="@dimen/mrgEstandar"
+        android:layout_marginBottom="@dimen/mrgEstandar"
+        />
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="@string/strBtnEditar"
+            android:layout_marginRight="@dimen/mrgEstandar"
+            android:layout_marginLeft="@dimen/mrgEstandar"
+            android:layout_marginBottom="@dimen/mrgEstandar"
+            android:layout_below="@+id/lblCedula"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
